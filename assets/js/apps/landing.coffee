@@ -27,8 +27,6 @@ module = angular.module "plunker.landing", [
   "plunker.menu"
   "plunker.userpanel"
   "plunker.plunks"
-  
-  "angularytics"
 ]
 
 
@@ -62,11 +60,13 @@ module.run ["$rootElement", ($rootElement) ->
       window.location = href
 ]
 
+###
 module.config ["AngularyticsProvider", (AngularyticsProvider) ->
   AngularyticsProvider.setEventHandlers ["Console", "GoogleUniversal"]
 ]
 
-module.run ["Angularytics", (Angularytics) ->
+module.run ["angularytics", (Angularytics) ->
   Angularytics.init()
 ]
+###
 

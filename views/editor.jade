@@ -3,11 +3,11 @@ html#ng-app(ng-app="plunker.editorPage", lang="en", class="ng-app:plunker.editor
   head
     meta(charset="utf-8")
     meta(name="viewport",content="width=device-width, initial-scale=1.0")
-    meta(name="description",content="Plunker is an online community for creating, collaborating on and sharing your web development ideas.")
+    meta(name="description",content="Rev is an online community for creating, collaborating on and sharing your web development ideas.")
     meta(name="keywords",content="jquery,angular.js,editor,online,jsfiddle,codepen,pastebin,testing,javascript testing,css testing,javascript,css,coffeescript,preview,live preview")
     meta(name="fragment", content="!")
     base(href="/edit/")
-    title Plunker
+    title Rev
     != css("apps/editor")
     // if lt IE 9
       script(src="http://html5shim.googlecode.com/svn/trunk/html5.js")
@@ -31,6 +31,7 @@ html#ng-app(ng-app="plunker.editorPage", lang="en", class="ng-app:plunker.editor
       
     != js("apps/editor")
     script
+      /*
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-28928507-1']);
       _gaq.push(['_trackPageview']);
@@ -46,6 +47,7 @@ html#ng-app(ng-app="plunker.editorPage", lang="en", class="ng-app:plunker.editor
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     
       ga('create', 'UA-28928507-5', 'plnkr.co');
+      */
 
 
 
@@ -55,7 +57,7 @@ html#ng-app(ng-app="plunker.editorPage", lang="en", class="ng-app:plunker.editor
       div.navbar-inner
         div.container-fluid
           a.brand(href="/")
-            span.brandname Plunker
+            span.brandname Rev
               sub.version(ng-bind-template="v{{package.version}}")
 
           <plunker-userpanel></plunker-userpanel>

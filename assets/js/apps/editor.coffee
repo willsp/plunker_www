@@ -24,7 +24,6 @@ module = angular.module "plunker.editorPage", [
   
   "ui.bootstrap"
   
-  "angularytics"
 ]
 
 
@@ -123,6 +122,7 @@ module.run ["$rootScope", ($rootScope) ->
   $rootScope[k] = v for k, v of window._plunker
 ]
 
+###
 module.config ["AngularyticsProvider", (AngularyticsProvider) ->
   AngularyticsProvider.setEventHandlers ["Console", "GoogleUniversal"]
 ]
@@ -130,3 +130,4 @@ module.config ["AngularyticsProvider", (AngularyticsProvider) ->
 module.run ["Angularytics", (Angularytics) ->
   Angularytics.init()
 ]
+###

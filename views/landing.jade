@@ -3,11 +3,11 @@ html#ng-app(ng-app="plunker.landing", lang="en", class="ng-app:plunker.landingPa
   head
     meta(charset="utf-8")
     meta(name="viewport",content="width=device-width, initial-scale=1.0")
-    meta(name="description",content="Plunker is an online community for creating, collaborating on and sharing your web development ideas.")
+    meta(name="description",content="Rev is an online community for creating, collaborating on and sharing your web development ideas.")
     meta(name="keywords",content="jquery,angular.js,editor,online,jsfiddle,codepen,pastebin,testing,javascript testing,css testing,javascript,css,coffeescript,preview,live preview")
     meta(name="fragment", content="!")
     base(href="/")
-    title Plunker
+    title Rev
     != css("apps/landing")
     // if lt IE 9
       script(src="http://html5shim.googlecode.com/svn/trunk/html5.js")
@@ -31,7 +31,7 @@ html#ng-app(ng-app="plunker.landing", lang="en", class="ng-app:plunker.landingPa
       
     != js("apps/landing")
     script
-      var _gaq = _gaq || [];
+      /*  var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-28928507-1']);
       _gaq.push(['_trackPageview']);
     
@@ -46,6 +46,7 @@ html#ng-app(ng-app="plunker.landing", lang="en", class="ng-app:plunker.landingPa
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     
       ga('create', 'UA-28928507-5', 'plnkr.co');
+      */
 
 
   body
@@ -54,7 +55,7 @@ html#ng-app(ng-app="plunker.landing", lang="en", class="ng-app:plunker.landingPa
       div.navbar-inner
         div.container
           a.brand(href="/")
-            span.brandname Plunker
+            span.brandname Rev
               sub.version(ng-bind-template="v{{package.version}}")
 
           <plunker-userpanel></plunker-userpanel>
@@ -71,26 +72,9 @@ html#ng-app(ng-app="plunker.landing", lang="en", class="ng-app:plunker.landingPa
     div.footer
       footer.container
         div.row
-          div.span4
-            p
-              a(href="https://modulus.io/",title="Modulus.io"): img(src="/img/modulus.png")
-              | &nbsp;provides node.js hosting for Plunker. If you want low-latency, high-availability
-              | and easy to use hosting for Node.js, we strongly suggest considering Modulus.io.
-          div.span4
-            p
-              a(href="http://mongolab.com",title="MongoLab"): img(src="/img/Mongolab.png")
-              | &nbsp;has generously provided the back-end storage for Plunker. If you are looking for
-              | good service and easy set-up, check them out.
-  
-          div.span2
-            strong Contact
-            ul.unstyled
-              li: a(href="/group", title="Google Group") Mailing list
-              li: a(href="http://twitter.com/filearts", title="Twitter contact") @filearts
-              li: a(href="https://plus.google.com/b/117182083134481297227/", title="Google+ Page") +Plunker
           div.span2
             strong Source code
             ul.unstyled
-              li: a(href="https://github.com/filearts/plunker_www", title="Website front-end") Website
-              li: a(href="https://github.com/filearts/plunker_api", title="Backend API") API Server
-              li: a(href="https://github.com/filearts/plunker_run", title="Plunk runner") Plunk runner
+              li: a(href="https://github.com/willsp/plunker_www", title="Website front-end") Website
+              li: a(href="https://github.com/willsp/plunker_api", title="Backend API") API Server
+              li: a(href="https://github.com/willsp/plunker_run", title="Plunk runner") Plunk runner
