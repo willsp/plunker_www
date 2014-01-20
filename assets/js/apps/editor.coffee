@@ -69,7 +69,7 @@ module.config ["$routeProvider", ($routeProvider) ->
                 </head>
               
                 <body>
-                  ${1:<h1>Hello Plunker!</h1>}
+                  ${1:<h1>Rev it UP!!!</h1>}
                 </body>
               
               </html>
