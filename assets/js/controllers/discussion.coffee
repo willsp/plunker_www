@@ -37,7 +37,7 @@ module.config ["$routeProvider", ($routeProvider) ->
     ]
 ]
 
-
+###
 module.run ["menu", (menu) ->
   menu.addItem "discuss",
     title: "Open the discussion group"
@@ -45,3 +45,4 @@ module.run ["menu", (menu) ->
     'class': "icon-comments-alt"
     text: "Group"
 ]
+###

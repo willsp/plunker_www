@@ -215,7 +215,7 @@ app.get "/plunks/views", addSession, (req, res) -> res.render "landing"
 app.get "/users", addSession, (req, res) -> res.render "landing"
 app.get "/users/:username", addSession, (req, res) -> res.render "landing"
 
-app.get "/group", addSession, (req, res) -> res.render "landing"
+#app.get "/group", addSession, (req, res) -> res.render "landing"
 
 app.get "/tags", addSession, (req, res) -> res.render "landing"
 app.get "/tags/:tagname", addSession, (req, res) -> res.render "landing"
