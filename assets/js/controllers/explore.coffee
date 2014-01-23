@@ -144,7 +144,7 @@ module.run ["$templateCache", ($templateCache) ->
         </div>
         <div class="span4">
           <h4>Upcoming</h4>
-          <p>Currently, you need to login through github, in order to save your revs (you can always access them if you save the link). Hoping that we can get login integrated with ADP's single sign-on.</p>
+          <p>Currently, you need to login through github in order to save your revs publicly (you can always access them if you save the link). Hoping that we can get login integrated with ADP's single sign-on.</p>
           <p>I'm also planning on creating some sort of templates or something to allow us to shortcut a link to include files from the repo. The current links are kind of unwieldy.</p>
         </div>
         <div class="span4">

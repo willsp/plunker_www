@@ -40,11 +40,11 @@ tagsTemplate = """
       <div class="span9" ng-switch-default>
         <h1>Browse tags</h1>
         <p>
-          Using the menu on the left, you can browse the top tags on Plunker.
-          Click a tag to see the most popular plunks with that tag.
+          Using the menu on the left, you can browse the top tags on Rev.
+          Click a tag to see the most popular revs with that tag.
         </p>
         <p>
-          Also note, that if you want to filter for plunks that have more than
+          Also note, that if you want to filter for revs that have more than
           one tag, you can do so by changing the url to tag1,tag2,etc..
         </p>
       </div>
